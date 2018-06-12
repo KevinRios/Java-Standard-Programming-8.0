@@ -15,13 +15,32 @@ public class VentanaMaestraController implements Initializable {
         
     }  
 
+    
+
     @FXML
-    private void salir(ActionEvent event) {
-        
-        System.exit(0);
+    private void abrirVentanaAutos(ActionEvent event) {
+    }
+
+    @FXML
+    private void abrirVentanaCompradores(ActionEvent event) {
+    }
+
+    @FXML
+    private void abrirVentanaVendedores(ActionEvent event) {
     }
     
     
+    
+   
+    @FXML
+    private void abrirVentanaConfiguracion(ActionEvent event) {
+    }
+    
+    @FXML
+    private void salir(ActionEvent event) {        
+        System.exit(0);
+    }
+
     
     
 }

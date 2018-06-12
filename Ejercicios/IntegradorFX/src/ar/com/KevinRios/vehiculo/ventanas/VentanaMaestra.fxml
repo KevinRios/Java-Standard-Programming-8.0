@@ -9,28 +9,19 @@
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>         
-          <Menu mnemonicParsing="false" text="Abrir Ventana">
+          <Menu mnemonicParsing="false" text="Abrir Ventana">                                   
             <items>
-              <MenuItem mnemonicParsing="false" text="Autos" />
-            </items>
-            <items>
-              <MenuItem mnemonicParsing="false" text="Vendedores" />
-            </items>            
-            <items>
-              <MenuItem mnemonicParsing="false" text="Compradores" />
+              <MenuItem mnemonicParsing="false" onAction="#abrirVentanaAutos" text="Autos" />
+              <MenuItem mnemonicParsing="false" onAction="#abrirVentanaCompradores" text="Compradores" />
+              <MenuItem mnemonicParsing="false" onAction="#abrirVentanaVendedores" text="Vendedores" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Ayuda">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Ayuda Online" />
-            </items>
-            <items>
-              <MenuItem mnemonicParsing="false" text="Configuracion" />
-            </items>
-            <items>
-              <MenuItem mnemonicParsing="false" onAction="#salir" text="Salir" />
-            </items>
-          </Menu>
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ayuda online" />
+                  <MenuItem mnemonicParsing="false" onAction="#abrirVentanaConfiguracion" text="Configuracion" />
+                  <MenuItem mnemonicParsing="false" onAction="#salir" text="Salir" />
+               </items></Menu>
         </menus>
       </MenuBar>
    </top>
